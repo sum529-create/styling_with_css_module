@@ -1,0 +1,33 @@
+.checkbox{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox label{
+    cursor: pointer;
+}
+
+/* input 숨기기 */
+.checkbox input{
+    width: 0;
+    height: 0;
+    position: absolute;
+    opacity: 0;
+}
+
+.checkbox span{
+    font-size: 1.125rem; /* 18px */
+    font-weight: bold;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    margin-right: 0.25rem; /* 4 */
+    color: #234fa1;
+}
+
+.checked{
+    color: #339af0;
+}
