@@ -6,7 +6,6 @@
 .checkbox label{
     cursor: pointer;
 }
-
 /* input 숨기기 */
 .checkbox input{
     width: 0;
